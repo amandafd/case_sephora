@@ -1,10 +1,10 @@
 <h1 align="center">Case Sephora</h1>
 
 
-<div align-items="center">
+<!--<div align-items="center">
   <img src="" alt="Project Screenshot">
 </div>
-</br>
+</br>-->
 
 <p align="center">
   <a href=""><img src="https://img.shields.io/badge/last%20update-december%202022-blue" align="center" alt="Badge - last update in december 2022" /></a> 
