@@ -17,45 +17,33 @@
 <!--<a href="" align="center">Link do vídeo apresentando o projeto</a>-->
 
 <ul>Content
-  <li><a href="#overview">Overview</a> 
-    <ul><li><a href="#the-project">The Project</a></li></ul>
+  <li><a href="#overview">Visão geral</a> 
+    <ul><li><a href="#the-project">O case</a></li></ul>
   </li>  
-  <li><a href="#the-process">The Process</a>
-    <ul><li><a href="#lessons-learned">Lessons learned</a></li></ul>
-  </li>  
-  <li><a href="#authors">Authors</li>
+  <li><a href="#authors">Autora</li>
 </ul>
 
-<h2 id="overview">Overview</h2>
+<h2 id="overview">Visão geral</h2>
 
-<h3 id="the-project">The Project</h3>
+<h3 id="the-project">O case</h3>
 
 <p>Case apresentado durante o processo seletivo da Sephora para a vaga de Designer de Front-end. O desafio consiste em 3 partes:</p> 
 <ol>
     <li><p>Analise e sugira melhorias para nossa <a href="https://www.sephora.com.br/herrera-the-lipstick-refi-140-536657.html">página de bundle</a></p>
     <p>Não é necessário realizar desenvolvimento, apenas listar as sugestões de melhoria.</p>
-    <p><e>Bundle: páginas de produto que incluem sugestões de compra conjunta com produtos são complementares. Ex.: batom que precisa de seleção de tampa e pode ter a inclusão de charms.</em></p>
-    <p><u>Skill: UX</u></p></li>
+    <p><em>Bundle: páginas de produto que incluem sugestões de compra conjunta com produtos são complementares. Ex.: batom que precisa de seleção de tampa e pode ter a inclusão de charms.</em></p>
+    <p>Skill: UX</p></li>
     <li>
     </li>
     <li>
     </li>
-    
 </ol>
-<p>The learning objectives for this project will be updated in the "Lessons learned" section as they are worked through in the run.</p>
 
 
-<h2 id="the-process">The Process</h2>
-
-<h3 id="lessons-learned">Lessons learned</h3>
-<ul>The learning acquired during the execution of this project will be constantly updated here:
-  <li>API integration</li>
-</ul> 
-
-<h2 id="authors" align="left">Authors</h2>
+<h2 id="authors" align="left">Autora</h2>
 <img align="left" src="https://avatars.githubusercontent.com/u/104245596?s=400&u=22dddd54d435db2df3c8f6e91c881be3cdc31170&v=4" width=115>
 <a href="https://github.com/amandafd">Amanda Dionisio</a>
-<h3 align="left">You can fin me on social media:</h3>
+<h3 align="left">Você me encontra nas redes sociais:</h3>
 <p align="left">
   <a href="https://www.linkedin.com/in/amanda-felipe-dionisio"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Badge - Linkedin" /></a>
   <a href="https://www.behance.net/amanda_dionisio"><img src="https://img.shields.io/badge/-Behance-blue?style=for-the-badge&logo=behance&logoColor=white" alt="Badge - Behance" /></a>
