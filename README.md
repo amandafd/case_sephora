@@ -16,13 +16,6 @@
 <!--<a href="" align="center">Project link</a><br>
 <a href="" align="center">Link do vídeo apresentando o projeto</a>-->
 
-<ul>
-  <li><a href="#overview">Visão geral</a> 
-    <ul><li><a href="#the-project">O case</a></li></ul>
-  </li>  
-  <li><a href="#authors">Autora</li>
-</ul>
-
 <h2 id="overview">Visão geral</h2>
 
 <h3 id="the-project">O case</h3>
