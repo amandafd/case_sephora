@@ -13,10 +13,10 @@
   <a href=""><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" align="center" alt="Badge - CSS" /></a>
 </p>
 
-<a href="" align="center">Project link</a><br>
-<!--<a href="" align="center">Link do vídeo apresentando o projeto</a>-->
+<!--<a href="" align="center">Project link</a><br>
+<a href="" align="center">Link do vídeo apresentando o projeto</a>-->
 
-<ul>Content
+<ul>
   <li><a href="#overview">Visão geral</a> 
     <ul><li><a href="#the-project">O case</a></li></ul>
   </li>  
