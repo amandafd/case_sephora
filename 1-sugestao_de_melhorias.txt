@@ -4,37 +4,23 @@
 2 - PRODUTO
     - O breadscrum "Início|Maquiagem|Lábios|Batom" está um pouco grande. A primeira vista, pode dar a impressão que é um elemento de navegação geral da página e não relacionado ao produto em si. É possível diminuir um pouco e posiciona-lo com uma margem menor do produto em si e maior da navBar.
     - O texto "só aqui" não está centralizado com o vetor ao redor(balão de fala). O acento inclusive encosta na borda superior enquanto há um espaçamento inferior. Sugiro centralizar.
-    - O nome do produto está menor e abaixo que o nome da marca. Se inverter, inclusive as especificações de tipográfia, creio que ficarã mais interessante, pois o nome do produto em si muitas vezes é a informação que o usuário busca primeiro. Além disso, o nome da marca já estã especificado no nome do produto também.
-3 - 
+    - O nome do produto está menor e abaixo do nome da marca. Se inverter, inclusive as especificações de tipográfia, creio que ficará mais interessante, pois o nome do produto em si muitas vezes é a informação que o usuário busca primeiro. Além disso, o nome da marca já está especificado no nome do produto também.
+	- Logo abaixo do produto existe um trecho da descrição, com a opção "ver descrição completa" ao lado desse trecho que ancora para a descrição estática logo abaixo. Sugiro que invés de ancorar para outra parte da página, tenha a função de expandir o restante da descrição na mesma área. "Descrição completa" também poderia estar embaixo e não ao lado do trecho, pois assim ocupa um espaço que poderia ser usado para o texto.
+	- Abaixo do trecho da descrição parcial do produto, existe um espaço em branco grande. Esse espaço não existe no site oficial da Sephora nas páginas de produto que não possuem essas sugestões de compra conjunta. Mas é possível "subir" o restante das informações mesmo se as sugestões continuarem ali ao lado.
+	- As opções "Descrição, modo da usar e especificações" podem ficar justificadas
+	- Existem duas descrições diferentes. Uma escrita e a outra com imagens. As informações estão redundantes. Existe essa necessidade?
+3 - Área de sugestões de compra conjunta
+	- Somente é possível selecionar a checkbox com a label "clique e compre junto..." clicando na checkbox em si. É interessante aumentar a área de clique, utilizando no atributo for, o que fica mais institivo para o usuário e diminui o número de cliques perdidos. Isso também melhora a acessibilidade pois faz com o que o navegador leia que aquela label é daquela checkbox, facilitando para usuários que fazem uso de leitores de tela.
+	- O texto "clique no box e compre junto" pode ser substituido por "compre junto.." ou equivalente. O uso de checkbox já indica para o  usuário, mesmos os leigos no sistema, que deverá ser clicado.
+
+
 4 - 
 
 
 
-
-
-
-
-
-
-
-
-
-
 TODO: ELABORAR AS ANOTAÇÕES ABAIXO
-    1."Clique no box e compre junto...": 
-        - Aumentar a área de seleção para a label/legenda(facilmente resolvido adicionando o atributo for para a label, o que além de aumentar a área de clique, aumenta a acessibilidade, tanto pelo motivo já citado quanto pela leitura que o navegador faz do elemento). É interessante aumentar a área de clique, o uso do sistema se torna mais instintivo e confortável para o usuário.
-
-	    - Alterar o texto de "Clique no box e compre junto..." para "compre junto.." ou equivalente. O uso de checkbox já indica para o  usuário, mesmos os leigos no sistema, que deverá ser clicado
-
-
-    2.As opções de produtos extra estão gerando um espaço em branco muito grande abaixo da descrição. O que não ocorre ao entrar na página oficial da Sephora em produtos que não possuem essa opção. É possível subir as opções da parte de descrição do produto, eliminando esse espaço em branco.
-
-    .Colocar a opção de "Ver descrição completa" abaixo do texto e não do lado, ocupando um espaço que pode ser melhor aproveitado. Invés de ancorar para o texto no final da página, fazer com que a descrição de expanda no mesmo lugar, não ficando com duas partes na página com o mesmo uso 
 	.Trocar as opção de escolher a quantidade de produto de lugar. Não fica imediatamente claro se a quantidade ali é do produto principal ou dos itens extras sugeridos
-	.Centralizar as opções "Descrição, modo de usar e especificações"
-	.Existem duas descrições de produto e modo de escolher, escrita de formas diferentes. Existe essa necessidade? O usuário não ficaria confuso?
 	."Assista o vídeo da campanha". Melhorar ou tirar esse texto, se manter, não precisa ter tanto espaçamento entre o texto e o vídeo
-	.Melhorar distribuição geral de elementos na descrição do produto. Está confusa e redundante.
 	.As avaliações estão entre"Você também vai amar" e "combina muito com", seguido por produtos patrocinados. Essas duas partes podem ficar juntas e as avaliação antes/depois. Tambpem melhorar posicionamento de combina muito com. Se a ideia é vender com o mesmo produto, a navegação pode ficar perdida entre outras opção que direcionam para outras páginas. Agrupar opções semelhantes
 	.Melhorar texto de "produtos patrocionados", não é atrativo para o usuário
 	.Melhorar footer. Uso ruim de espaço
