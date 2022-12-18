@@ -1,29 +1,17 @@
 1 - HEADER, MENUS, BANNER
     - O posicionamento do banner acima de todos os outros elemento da página, gera uma sensação de não pertencimento desse elemento com o resto. Isso pode levar a um usuário mais desatento a compreender essa parte como uma propaganda externa e não uma divulgação da própria Sephora. Ele poderia ser posicionado logo abaixo da navBar com as opções "Maquiagem, Perfumes, Skincare..." ou ocupar a largura completa da página.
-    - A navBar fixa no topo da tela diminui a área de tela para outros elementos. Analisando concorrentes diretos e indiretos da Sephora, verificamos que não é um prática muito utilizada no e-commerce.
-2 - PRODUTO
-    - O breadscrum "Início|Maquiagem|Lábios|Batom" está um pouco grande. A primeira vista, pode dar a impressão que é um elemento de navegação geral da página e não relacionado ao produto em si. É possível diminuir um pouco e posiciona-lo com uma margem menor do produto em si e maior da navBar.
-    - O texto "só aqui" não está centralizado com o vetor ao redor(balão de fala). O acento inclusive encosta na borda superior enquanto há um espaçamento inferior. Sugiro centralizar.
-    - O nome do produto está menor e abaixo do nome da marca. Se inverter, inclusive as especificações de tipográfia, creio que ficará mais interessante, pois o nome do produto em si muitas vezes é a informação que o usuário busca primeiro. Além disso, o nome da marca já está especificado no nome do produto também.
-	- Logo abaixo do produto existe um trecho da descrição, com a opção "ver descrição completa" ao lado desse trecho que ancora para a descrição estática logo abaixo. Sugiro que invés de ancorar para outra parte da página, tenha a função de expandir o restante da descrição na mesma área. "Descrição completa" também poderia estar embaixo e não ao lado do trecho, pois assim ocupa um espaço que poderia ser usado para o texto.
-	- Abaixo do trecho da descrição parcial do produto, existe um espaço em branco grande. Esse espaço não existe no site oficial da Sephora nas páginas de produto que não possuem essas sugestões de compra conjunta. Mas é possível "subir" o restante das informações mesmo se as sugestões continuarem ali ao lado.
-	- As opções "Descrição, modo da usar e especificações" podem ficar justificadas
-	- Existem duas descrições diferentes. Uma escrita e a outra com imagens. As informações estão redundantes. Existe essa necessidade?
-3 - Área de sugestões de compra conjunta
+    - A navBar fixa no topo da tela diminui a área de tela para outros elementos. Dependendo do tamanho da tela, não é possível ver vídeos ou imagens inteiros. Analisando concorrentes diretos e indiretos da Sephora, verificamos que não é um prática muito utilizada no e-commerce.
+	2 - ÁREA DE SUGESTÕES DE COMPRA CONJUNTA
 	- Somente é possível selecionar a checkbox com a label "clique e compre junto..." clicando na checkbox em si. É interessante aumentar a área de clique, utilizando no atributo for, o que fica mais institivo para o usuário e diminui o número de cliques perdidos. Isso também melhora a acessibilidade pois faz com o que o navegador leia que aquela label é daquela checkbox, facilitando para usuários que fazem uso de leitores de tela.
 	- O texto "clique no box e compre junto" pode ser substituido por "compre junto.." ou equivalente. O uso de checkbox já indica para o  usuário, mesmos os leigos no sistema, que deverá ser clicado.
-
-
-4 - 
-
-
-
-TODO: ELABORAR AS ANOTAÇÕES ABAIXO
-	.Trocar as opção de escolher a quantidade de produto de lugar. Não fica imediatamente claro se a quantidade ali é do produto principal ou dos itens extras sugeridos
-	."Assista o vídeo da campanha". Melhorar ou tirar esse texto, se manter, não precisa ter tanto espaçamento entre o texto e o vídeo
-	.As avaliações estão entre"Você também vai amar" e "combina muito com", seguido por produtos patrocinados. Essas duas partes podem ficar juntas e as avaliação antes/depois. Tambpem melhorar posicionamento de combina muito com. Se a ideia é vender com o mesmo produto, a navegação pode ficar perdida entre outras opção que direcionam para outras páginas. Agrupar opções semelhantes
-	.Melhorar texto de "produtos patrocionados", não é atrativo para o usuário
-	.Melhorar footer. Uso ruim de espaço
-	.A Sephora é uma loja que vende produtos exclusivos, melhorar a apresentação dos produtos, semelhantes a como se faz no ponto de venda de produtos de luxo
-
-TODO: ANALISAR SE EXISTEM MAIS PONTOS E MELHORAR TEXTO PARA APRESENTAR
+3 - PRODUTO E DISPOSIÇÃO GERAL DOS ELEMENTOS
+    - O breadscrum "Início|Maquiagem|Lábios|Batom" está um pouco grande. A primeira vista, pode dar a impressão que é um elemento de navegação geral da página e não relacionado ao produto em si. É possível diminuir um pouco e posiciona-lo com uma margem menor do produto em si e maior da navBar.
+    - O texto "só aqui" não está centralizado com o vetor ao redor(balão de fala). O acento inclusive encosta na borda superior enquanto há um espaçamento inferior. Recomendo centralizar.
+    - O nome do produto está menor e abaixo do nome da marca. Se inverter, inclusive as especificações de tipográfia, creio que ficará mais interessante, pois o nome do produto em si muitas vezes é a informação que o usuário busca primeiro. Além disso, o nome da marca já está especificado no nome do produto também.
+	- Logo abaixo do produto existe um trecho da descrição, com a opção "ver descrição completa" ao lado desse trecho que ancora para a descrição estática logo abaixo. Recomendo que invés de ancorar para outra parte da página, tenha a função de expandir o restante da descrição na mesma área. "Descrição completa" também poderia estar embaixo e não ao lado do trecho, pois assim ocupa um espaço que poderia ser usado para o texto.
+	- Abaixo do trecho da descrição parcial do produto, existe um espaço em branco grande. Esse espaço não existe no site oficial da Sephora nas páginas de produto que não possuem essas sugestões de compra conjunta. Mas é possível "subir" o restante das informações mesmo se as sugestões continuarem ali ao lado.
+	- As opções "Descrição, modo da usar e especificações" podem ficar justificadas
+	- Existem duas descrições diferentes. Uma escrita e a outra com imagens. Recomendo reelaborar a esturtura dessa área de modo a não ter informações em duplicidade
+	- Ao final da descriçao do produto, existe um vídeo com o texto "Assista o vídeo da campanha". O texto estão com um espaçamento muito grande do vídeo. Recomendo diminuir esse espaçamento
+	- O texto "Produtos patrocinados" não é muito atrativo para o usuário, recomendo elaborar um outro título pensando no proposito
+	- Ao clicar em "comprar", abre "Minha sacola" com um slide lateral. O texto "Parabéns, você ganhou frete grátis! *na modalidade de entrega Normal" está todo com as mesmas especificações de fonte. Sugiro alterar do * em diante para uma fonte menor e colocar abaixo desse primeiro texto.
